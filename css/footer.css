@@ -1,0 +1,98 @@
+footer{
+    margin-top: 100px;
+}
+
+
+.FooterTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.FooterTop img{
+    width: 70px;
+}
+
+.FooterTop h2{
+    color: #34A0FF;
+    font-size: 1.5em;
+}
+
+.FooterBothLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.LinksContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    gap: 10px;
+}
+
+.LinksContainer h2{
+    color: #34A0FF;
+    font-size: 1.5em;
+}
+
+.LinksContainer a{
+    color: #EBF2FF;
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 1em;
+    font-family: "work-sans", sans-serif;
+}
+
+.InputContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 30px 15px;
+}
+
+.InputRobot{
+    width: auto;
+    height: 40px;
+    right: 50px;
+    position: absolute;
+    top: -38px;
+}
+
+.InputFooter{
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    height: 40px;
+}
+
+.SendBtnFooter{
+    border: none;
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+    background-color: #34A0FF;
+    color: #EBF2FF;
+    right: 0;
+    height: 60px;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.FooterBottomContainer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5em;
+    margin: 25px 15px;
+    padding-bottom: 5px;
+    color: #EBF2FF;
+    font-family: "work-sans", sans-serif;
+}
+
+.BottomRight{
+    display: flex;
+    gap: 5px;
+}
