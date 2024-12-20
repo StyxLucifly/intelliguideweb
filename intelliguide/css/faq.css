@@ -1,0 +1,71 @@
+/* Algemene header stijl */
+header {
+    background-color: #002244;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+/* FAQ container */
+.faq-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individuele FAQ items */
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #002244;
+}
+
+.faq-question:hover {
+    color: #004080;
+}
+
+/* Pijl animatie */
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}
+
+/* FAQ antwoord (verborgen standaard) */
+.faq-answer {
+    display: none;
+    padding: 0.5rem 1rem 0 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.faq-answer.active {
+    display: block;
+}
